@@ -900,9 +900,9 @@ body::after {
 }
 
 [data-reveal] {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 500ms ease, transform 500ms ease;
+  opacity: 1;
+  transform: none;
+  transition: none;
 }
 
 @media (max-width: 1080px) {
